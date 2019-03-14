@@ -1,0 +1,516 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+html, body {
+  height: 100%;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/*** for desktop scree ***/
+@media screen and (min-width: 601px) {
+  
+}
+
+/*** for mobile screen ****/
+@media screen and (max-width: 600px) {
+  
+}
+
+/**** NAVBAR STYLING ******/
+.navbar-nav {
+      flex-direction: row;
+  }
+
+  .nav-link {
+      padding-right: .5rem !important;
+      padding-left: .5rem !important;
+  }
+
+  .ml-auto .dropdown-menu {
+      left: auto !important;
+      right: 0px;
+  }
+
+  #nav .logo {
+      width: 120px;
+  }
+  
+  #nav {
+      padding: 20px;
+      color: #053E5F;
+      font-style: normal;
+      line-height: normal;
+      font-size: 14px;
+      letter-spacing: -0.01em;
+      background-color: white;
+  }
+  
+  #nav .sign-up {
+      width: 130px;
+      background-color: unset;
+      border: 1px solid #06C2CE;
+      color: #053E5F;
+      margin-right: 20px;
+      border-radius: 7px;
+      margin-bottom: 10px;
+  }
+  
+  #nav .signin {
+      width: 130px;
+      background-color: #06C2CE;
+      color: white;
+      border: 0px;
+      border-radius: 7px;
+      border: 0px;
+      opacity: 0.6;
+  }
+  
+  #nav .signin:hover {
+      opacity: 1;
+  }
+  
+  .r-mr-nav {
+      margin-right: 30px;
+  }
+  
+  .nav-button {
+      width: 150px;
+  }
+  
+  @media screen and (min-width: 601px) {
+      #nav .navbar-nav {
+      
+      }
+  }
+  
+  @media screen and (max-width: 600px) {
+      #nav .navbar-nav {
+      padding: 30px;
+      text-align: center;
+      }
+  }
+  
+  #nav .navbar-brand img {
+      padding-top: 3px;
+  }
+  
+  #nav li a {
+      color: #223D68;
+      font-weight: 600;
+  }
+  
+  .mobile-nav {
+      width: auto;
+      padding: 20px;
+  }
+  
+  .mobile-nav h5 {
+      letter-spacing: -0.01em;
+      color: #223D68;
+      font-size: 14px;
+      margin-bottom: 20px;
+  }
+  
+  .mobile-nav span {
+      display: block;
+      margin-bottom: 10px;
+      text-transform: uppercase;
+      font-size: 13px;
+  }
+  
+  .b-dropdown-menu {
+      width: auto;
+      padding: 20px;
+  }
+  
+  .b-dropdown-menu h5, .b-dropdown-menu h6 {
+      letter-spacing: -0.01em;
+      color: #223D68;
+      font-size: 13px;
+  }
+  
+  .b-dropdown-menu h5 a:hover {
+      text-decoration: none;
+  }
+  
+  .b-dropdown-menu h6 a:hover {
+      text-decoration: none;
+  }
+  
+  .b-dropdown-menu p {
+      margin-bottom: 30px;
+      font-size: 15px;
+  }
+  
+  .b-dropdown-menu span {
+      display: block;
+      margin-bottom: 10px;
+      text-transform: uppercase;
+      font-size: 13px;
+  }
+  
+  .support-dropdown {
+      width: 200px;
+      padding: 20px;
+  }
+  
+  .support-dropdown a {
+      margin-bottom: 15px;
+      letter-spacing: -0.01em;
+      color: #223D68;
+      font-size: 14px;
+  }
+  
+  .support-dropdown a:hover {
+      text-decoration: none;
+  }
+
+
+  /********** HOME PAGE STYLING ***********/
+  #home-page .top-content {
+    padding-left: 60px;
+    padding-right: 100px;
+    padding-top: 130px;
+    padding-bottom: 130px;
+  }
+  
+  @media screen and (min-width: 601px) {
+    #home-page .slider #s0 {
+      background-image: url(/static/images/home-header.png);
+      background-size: cover;
+      background-repeat: no-repeat;
+      padding: 20px;
+    }
+  }
+  
+  #home-page .slider {
+    margin-top: 80px;
+    background-image: url(/static/images/home-header.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  
+  #home-page .slider h3 {
+    color: #06C2CE;
+    font-size: 18px;
+    text-transform: uppercase;
+  }
+  
+  #home-page .slider h1 {
+    font-size: 33px;
+    margin-bottom: 30px;
+    color: #053E5F;
+    font-weight: 600;
+  }
+  
+  #home-page .slider button {
+    background-color: #06C2CE;
+    color: white;
+    border: 0px;
+    border-radius: 7px;
+    padding: 10px 30px 10px 30px;
+  }
+
+  #home-page .section-2 {
+    padding: 20px 80px 0px 80px;
+    background-color: #0ca9b0;
+  }
+
+  #home-page .section-4 {
+    padding: 20px 80px 0px 80px;
+    background-color: #ECF0F1;
+  }
+
+  #home-page .section-5 {
+    padding: 20px 80px 0px 80px;
+    background-color: white;
+  }
+
+  #home-page .section-5 h1 {
+    font-size: 25px;
+    text-transform: uppercase;
+    color: #0ca9b0;
+    font-weight: 600;
+    text-align: center;
+    margin-top: 50px;
+  }
+
+  #home-page .section-5 p {
+    color: grey;
+    font-size: 22px;
+    line-height: 30px;
+  }
+
+  #home-page .section-5 .col-md-4 {
+    margin-bottom: 20px;
+  }
+
+  #home-page .section-5 .col-md-4 img {
+    width: 330px;
+  }
+  
+  #home-page .section-2 ul {
+    padding-left: 0;
+    
+  }
+  
+  #home-page .section-2 ul li {
+    list-style-type: none;
+    font-size: 30px;
+    line-height: 40px;
+    color: #252a60;
+  }
+  
+  #home-page .section-2 ul li i {
+    color: white;
+    font-size: 15px;
+  }
+  
+  #home-page .section-2 .background {
+    background-image: url(/static/images/home-img2.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  #home-page .section-2 .background div {
+      padding: 160px;
+  }
+
+  #home-page .section-4 .background div {
+    padding: 160px;
+  }
+
+  #home-page .section-4 .background {
+    background-image: url(/static/images/africa-map-icon.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+
+  #home-page .section-4 p {
+    font-size: 25px;
+    text-transform: uppercase;
+    color: #0ca9b0;
+  }
+
+  #home-page .section-4 button, .section-5 button {
+    background-color: #06C2CE;
+    color: white;
+    border: 0px;
+    border-radius: 7px;
+    border: 0px;
+    opacity: 0.6;
+  }
+
+  #home-page .section-4 input {
+    width: 90%;
+    height: 60px;
+    padding: 15px;
+    font-size: 20px;
+  }
+
+  #home-page .section-2 .content, #home-page .section-4 .content {
+    padding-top: 100px;
+    padding-bottom: 150px;
+    padding-right: 20px;
+    padding-left: 50px;
+    text-align: left;
+  }
+
+  #home-page .covered {
+    background-color: white;
+    padding-top: 35px;
+    padding-bottom: 30px;
+  }
+  
+  #home-page .covered h1 {
+    font-weight: 600;
+    line-height: 40px;
+    font-size: 22px;
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+    color: #0ca9b0;
+    text-align: center;
+    margin-bottom: 90px;
+  }
+  
+  #home-page .covered h2 {
+    font-weight: 600;
+    line-height: 23px;
+    font-size: 20px;
+    letter-spacing: -0.01em;
+    color: #0ca9b0;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+  }
+  
+  #home-page .covered img {
+    margin-bottom: 10px;
+    width: 132px;
+    height: 122px;
+  }
+  
+  #home-page .covered .card p {
+    line-height: 26px;
+    font-size: 16px;
+    letter-spacing: 0.01em;
+    color: #6F7E83;
+  }
+
+  #home-page .covered .card  {
+    text-align: center;
+    border: 0px;
+  }
+
+  /**** COMPANY PAGE STYLING *****/
+  #company-page .section-1 {
+    margin-top: 100px;
+    background-image: url(/static/images/company-header.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 80px; 
+  }
+
+  #company-page .section-1 h1 {
+    font-size: 33px;
+    margin-bottom: 10px;
+    color: #053E5F;
+    font-weight: 600;
+  }
+
+  #company-page .section-1 p {
+    color: #0ca9b0;
+    text-decoration: italic;
+  }
+
+  #company-page .section-1 h3 {
+    font-weight: 600;
+    font-size: 40px;
+    color: #252a60;
+  }
+
+  #company-page .section-1 span {
+    display: block;
+    color: #252a60;
+    font-size: 15px;
+  }
+
+  #company-page .section-2 {
+    padding: 50px 0 50px 0;
+  }
+
+  #company-page .section-2 h1 {
+    font-weight: 600;
+    font-size: 30px;
+    color: #252a60;
+  }
+
+  #company-page .section-2 .content {
+    padding: 80px 0 60px 60px;
+  }
+
+  #company-page .section-2 .background {
+    background-image: url(/static/images/company-image.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 130px;
+  }
+
+  /****** SIGNUP PAGE STYLING *******/
+  #signup-page .row.contain {
+    overflow: hidden;
+    height: 100vh;
+  }
+
+  #signup-page .background {
+		padding: 100px;
+    background-color: #0ca9b0;
+    color: white;
+	}
+
+	#signup-page .background p {
+		font-size: 20px;
+		color: white;
+		font-style: normal;
+    line-height: normal;
+    text-align: center;
+    margin-top: 130px;
+  }
+  
+  #signup-page .background h1 {
+    font-size: 50px;
+		color: white;
+		font-style: normal;
+    text-align: left;
+    margin-top: 180px;
+    font-weight: 600;
+  }
+
+	#signup-page .form-content {
+		padding: 180px 50px 0px 50px;
+  }
+
+  #signup-page .form-content button {
+    background-color: #0ca9b0;
+    height: 50px;
+    border: none;
+  }
+  
+  #signup-page .form-content img {
+    width: 100px;
+  }
+
+	#signup-page .form .form-content input {
+		padding: 20px;
+		font-size: 15px;
+	}
+
+	@media screen and (min-width: 601px) {
+		
+	}
+
+	@media screen and (max-width: 600px) {
+	
+	}
+
+	#signup-page .form .form-content p {
+		color: #223D68;
+		font-size: 14px;
+  }
+  
+  /****** CAREER PAGE STYLE ******/
+  #career-page .section-1 {
+    padding-top: 150px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  #career-page .section-1 h1 {
+    font-style: normal;
+    font-weight: 600;
+    line-height: 44px;
+    font-size: 30px;
+    text-align: center;
+    letter-spacing: -0.02em;
+    color: black;
+  }
+
+  #career-page .section-1 p {
+    font-style: normal;
+    line-height: 26px;
+    font-size: 18px;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #6F7E83;
+  }
+
+  #career-page .section-1 button {
+    background-color: #EEBA37;
+    padding: 15px;
+    border: 0px;
+    font-size: 18px;
+    letter-spacing: 0.02em;
+  }
