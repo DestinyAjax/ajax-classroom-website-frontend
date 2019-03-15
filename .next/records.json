@@ -1,0 +1,58 @@
+{
+  "mini-css-extract-plugin node_modules/css-loader/index.js??ref--5-1!static/css/business-frontpage.css": [
+    {
+      "modules": {
+        "byIdentifier": {},
+        "usedIds": {}
+      },
+      "chunks": {
+        "byName": {
+          "mini-css-extract-plugin": 0
+        },
+        "bySource": {},
+        "usedIds": [
+          0
+        ]
+      }
+    }
+  ],
+  "modules": {
+    "byIdentifier": {
+      "multi node_modules/next/dist/client/next": 0,
+      "css node_modules/css-loader/index.js??ref--5-1!static/css/business-frontpage.css 0": 1
+    },
+    "usedIds": {
+      "0": 0,
+      "1": 1
+    }
+  },
+  "chunks": {
+    "byName": {
+      "static/runtime/webpack.js": 0,
+      "commons": 1,
+      "static/runtime/main.js": 2,
+      "static\\tr1QiY2szu68EKvh8obz0\\pages\\_app.js": 3,
+      "static\\tr1QiY2szu68EKvh8obz0\\pages\\_error.js": 4,
+      "static\\tr1QiY2szu68EKvh8obz0\\pages\\faqs.js": 5,
+      "static\\tr1QiY2szu68EKvh8obz0\\pages\\index.js": 6,
+      "static\\tr1QiY2szu68EKvh8obz0\\pages\\registration.js": 7,
+      "static\\tr1QiY2szu68EKvh8obz0\\pages\\signin.js": 8,
+      "static\\tr1QiY2szu68EKvh8obz0\\pages\\signup.js": 9,
+      "styles": 10
+    },
+    "bySource": {},
+    "usedIds": [
+      0,
+      1,
+      10,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ]
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "modules": {
+    "byIdentifier": {
+      "multi private-next-pages/faqs.js": 0,
+      "multi private-next-pages/index.js": 1,
+      "multi private-next-pages/registration.js": 2,
+      "multi private-next-pages/signin.js": 3,
+      "multi private-next-pages/signup.js": 4,
+      "multi next/dist/pages/_app": 5,
+      "multi next/dist/pages/_error": 6,
+      "multi next/dist/pages/_document": 7
+    },
+    "usedIds": {
+      "0": 0,
+      "1": 1,
+      "2": 2,
+      "3": 3,
+      "4": 4,
+      "5": 5,
+      "6": 6,
+      "7": 7
+    }
+  },
+  "chunks": {
+    "byName": {
+      "static\\tr1QiY2szu68EKvh8obz0\\pages\\_app.js": 0,
+      "static\\tr1QiY2szu68EKvh8obz0\\pages\\_document.js": 1,
+      "static\\tr1QiY2szu68EKvh8obz0\\pages\\_error.js": 2,
+      "static\\tr1QiY2szu68EKvh8obz0\\pages\\faqs.js": 3,
+      "static\\tr1QiY2szu68EKvh8obz0\\pages\\index.js": 4,
+      "static\\tr1QiY2szu68EKvh8obz0\\pages\\registration.js": 5,
+      "static\\tr1QiY2szu68EKvh8obz0\\pages\\signin.js": 6,
+      "static\\tr1QiY2szu68EKvh8obz0\\pages\\signup.js": 7
+    },
+    "bySource": {},
+    "usedIds": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ]
+  }
+}

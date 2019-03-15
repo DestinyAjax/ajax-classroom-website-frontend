@@ -3,11 +3,16 @@ import '../static/css/business-frontpage.css'
 
 const FooterLink = () => (
     <div>
-        <footer class="py-5 bg-dark">
-            <div class="container">
-            <p class="m-0 text-center text-white">Copyright &copy; Your Website 2019</p>
+        <footer className="py-5">
+            <div className="container">
+                <p className="m-0 text-center text-white">Copyright &copy; Your Website 2019</p>
             </div>
         </footer>
+        <style jsx>{`
+            footer {
+                background-color: #273746;
+            }
+        `}</style>
     </div>
 );
 
