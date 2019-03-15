@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+html, body {
+  height: 100%;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+p, ul, li {
+ color: #424949;
+}
+
+#home-page header {
+  background-color: #273746;
+}
+
+.current-price h2 {
+  font-weight: 600;
+  font-size: 30px;
+}
+
+#home-page .btn-big {
+  background-color: #16A085;
+  color: white;
+  display: block;
+  border: 0px;
+  cursor: pointer;
+  width: 100%;
+  padding: 15px;
+  font-size: 19px;
+  margin-top: 20px;
+}
+
+#home-page .btn-big:hover {
+  background-color: #117A65;
+}
+
+#home-page .course-packages {
+  font-size: 13px;
+}

@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[5],{"1bZ5":function(n,w){},"3HE9":function(n,w,o){(window.__NEXT_P=window.__NEXT_P||[]).push(["/faqs",function(){var n=o("1bZ5");return{page:n.default||n}}])}},[["3HE9",0]]]);
