@@ -38,18 +38,26 @@
       "static\\KxFsBiipeEoq5HcFY7PBl\\pages\\index.js": 12,
       "static\\KxFsBiipeEoq5HcFY7PBl\\pages\\registration.js": 13,
       "static\\KxFsBiipeEoq5HcFY7PBl\\pages\\signin.js": 14,
-      "static\\KxFsBiipeEoq5HcFY7PBl\\pages\\signup.js": 15
+      "static\\KxFsBiipeEoq5HcFY7PBl\\pages\\signup.js": 15,
+      "static\\dpEndN4tbN7D5ukquMbLL\\pages\\_app.js": 0,
+      "static\\dpEndN4tbN7D5ukquMbLL\\pages\\_document.js": 1,
+      "static\\dpEndN4tbN7D5ukquMbLL\\pages\\_error.js": 2,
+      "static\\dpEndN4tbN7D5ukquMbLL\\pages\\faqs.js": 3,
+      "static\\dpEndN4tbN7D5ukquMbLL\\pages\\index.js": 4,
+      "static\\dpEndN4tbN7D5ukquMbLL\\pages\\registration.js": 5,
+      "static\\dpEndN4tbN7D5ukquMbLL\\pages\\signin.js": 6,
+      "static\\dpEndN4tbN7D5ukquMbLL\\pages\\signup.js": 7
     },
     "bySource": {},
     "usedIds": [
-      10,
-      11,
-      12,
-      13,
-      14,
-      15,
-      8,
-      9
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
     ]
   }
 }
