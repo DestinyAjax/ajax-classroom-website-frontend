@@ -5,19 +5,19 @@ const TopMenu = () => {
         <div>
             <nav className="navbar navbar-expand-lg navbar-dark fixed-top">
                 <div className="container">
-                    <Link href="#">
+                    <Link href="/">
                         <a className="navbar-brand"><img src="../static/images/logo.png" className="logo"/></a>
                     </Link>
-                    <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-                        <span className="navbar-toggler-icon"></span>
+                    <button className="navbar-toggler toggle" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                        <span className="navbar-toggler-icon toggle-icon"></span>
                     </button>
                     <div className="collapse navbar-collapse" id="navbarResponsive">
                         <ul className="navbar-nav ml-auto">
                             <li className="nav-item">
                                 <Link href="#"><a className="nav-link">Home<span className="sr-only">(current)</span></a></Link>
                             </li>
-                            <li className="nav-item"><Link href="/registration"><a className="nav-link">Registration</a></Link></li>
-                            <li className="nav-item"><Link href="/faqs"><a className="nav-link">FAQs</a></Link></li>
+                            <li className="nav-item"><a className="nav-link"  href="https://docs.google.com/forms/d/e/1FAIpQLSfaREMwwMsQEJAbJ6ZSj3TZa7v0lpmtExqcMOu4CD-8m3YoIg/viewform?usp=sf_link" target="_blank">Registration</a></li>
+                            <li className="nav-item"><Link href="#"><a className="nav-link">FAQs</a></Link></li>
                         </ul>
                     </div>
                 </div>
