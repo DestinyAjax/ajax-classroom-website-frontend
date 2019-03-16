@@ -1,1 +1,0 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[7],{EM9C:function(n,o){},pm2M:function(n,o,w){(window.__NEXT_P=window.__NEXT_P||[]).push(["/registration",function(){var n=w("EM9C");return{page:n.default||n}}])}},[["pm2M",0]]]);
