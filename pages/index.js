@@ -30,8 +30,7 @@ const Index = () => {
                                     <div className="row">
                                         <div className="col-md-6">
                                             <ul>
-                                                <li>Skills that will allow you to apply for jobs in these roles: Web Developer, Software Developer, 
-                                                Front End Developer, Javascript Developer, or Full Stack Developer</li><br/>
+                                                <li>Skills that will allow you to apply for jobs in these roles: Web Developer, Software Developer, or Web Designer</li><br/>
                                                 <li>Build your own websites and applications</li><br/>
                                                 <li>Master fundamental concepts in web development</li>
                                             </ul>
@@ -84,7 +83,7 @@ const Index = () => {
                                         <li>SECTION 6 - Bootstrap 4 and Template</li>
                                         <li>SECTION 7 - CSS Layouting Using Flexbox</li>
                                         <li>SECTION 8 - Career of A Web Developer</li>
-                                        <li>SECTION 9 - Introduction To Javasript</li>
+                                        <li>SECTION 9 - Introduction To Javascript</li>
                                         <li>SECTION 10 - DOM Manipulation</li>
                                         <li>SECTION 11 - Command Line</li>
                                         <li>SECTION 12 - Development Environment</li>
@@ -110,7 +109,7 @@ const Index = () => {
                                     <h4 className="card-title">About the Instructor</h4>
                                     <div className="row">
                                         <div className="col-md-2">
-                                            <p><img src="/static/images/ajakaiye.jpg" className="rounded-circle personal-image" alt="destiny-ajakaiye"/></p>
+                                            <p><img src="/static/images/destiny-ajakaiye.jpg" className="rounded-circle personal-image" alt="destiny-ajakaiye"/></p>
                                         </div>
                                         <div className="col-md-10">
                                             <p><a href="https://linkedin.com/in/destinyajax" target="_blank">Destiny Ajakaiye</a></p>

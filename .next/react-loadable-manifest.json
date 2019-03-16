@@ -885,7 +885,7 @@
       "publicPath": "static/chunks/commons.706179dd54ad23bbf20d.js"
     }
   ],
-  "@babel/runtime-corejs2/helpers/typeof": [
+  "../helpers/typeof": [
     {
       "id": "iZP3",
       "name": "./node_modules/@babel/runtime-corejs2/helpers/typeof.js",
