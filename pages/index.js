@@ -13,7 +13,7 @@ const Index = () => {
                                 <p className="lead mb-5 text-white-50">Learn to code and become a web developer in 2019 with HTML, CSS, <br/>Javascript, React, Node.js, & more!</p>
                                 <p className="created">
                                     <span><i className="fa fa-user"></i> Created By:</span> Destiny Ajakaiye  | 
-                                    <span> <i className="fa fa-calendar">  Duration:</i></span> 60Days |
+                                    <span> <i className="fa fa-calendar">  Duration:</i></span> 6Weeks |
                                     <span> <i className="fa fa-home">  Platform:</i></span> WhatsApp |
                                 </p>
                             </div>
@@ -89,8 +89,8 @@ const Index = () => {
                                         <li>SECTION 12 - Development Environment</li>
                                         <li>SECTION 13 - Git + Github</li>
                                         <li>SECTION 14 - NPM + NPM Packages</li>
-                                        <li>sECTION 15 - Final Product: An Ecommerce App</li>
-                                        <li>SECTION 16 - Introduction To Backend and Frontend Developmemt</li>
+                                        <li>SECTION 15 - Final Product: An Ecommerce App</li>
+                                        <li>SECTION 16 - Introduction To Backend and Frontend Development (React.js and Node.js)</li>
                                         <li>SECTION 17 - Introduction to Databases</li>
                                         <li>SECTION 18 - Deployment and Production</li>
                                     </ol><hr />
@@ -128,17 +128,24 @@ const Index = () => {
                                 <img className="card-img-top" src="/static/images/ajax-classroom-web-development.jpg" alt="ajax classroom web development" />
                                 <div className="card-body">
                                     <div className="current-price text-center">
+                                        <h3>How to register</h3>
+                                        <p>Make payment of ₦2,000 to the account details below with your full name then click on the button below to register your details. 
+                                        You will be add to the classroom immediately your payment has been confirmed.</p>
+                                        <p><strong>ACCOUNT NAME: </strong> Destiny Ajakaiye<br/> 
+                                        <strong>ACCOUNT NUMBER:</strong> 0032230023<br/>
+                                        <strong>BANK NAME:</strong> Stanbic IBTC</p><hr/>
                                         <p className="card-title">Course Price</p>
-                                        <h2>₦2,000 <span className="discount"><strike>₦25,000</strike></span></h2>
+                                        <h2>₦2,000 <span className="discount"><strike>₦35,000</strike></span></h2>
                                     </div>
                                     <a href="https://docs.google.com/forms/d/e/1FAIpQLSfaREMwwMsQEJAbJ6ZSj3TZa7v0lpmtExqcMOu4CD-8m3YoIg/viewform?usp=sf_link" target="_blank"><button className="btn-big" type="button">Register</button></a><hr/>
                                     <h6>Course package</h6>
                                     <p className="course-packages">
-                                        <i className="fa fa-arrow-circle-right"></i> Free vidoes and transcript on all topics<br/>
+                                        <i className="fa fa-arrow-circle-right"></i> Free videos and transcript on all topics<br/>
                                         <i className="fa fa-arrow-circle-right"></i> Free articles<br/>
                                         <i className="fa fa-arrow-circle-right"></i> Free downloadable resources<br/>
                                         <i className="fa fa-arrow-circle-right"></i> Free mentoring access<br/>
                                         <i className="fa fa-arrow-circle-right"></i> Access on both mobile and PC<br/>
+                                        <i className="fa fa-arrow-circle-right"></i> Learn at your own time<br/>
                                     </p>
                                 </div>
                             </div>
